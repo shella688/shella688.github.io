@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackerForum back online</title>
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <!-- <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li> -->
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">HackerForum</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    <div class="container">
+        <!--Navigation-->
+        <div class="navigate">
+            <span><a href="index.html">Home</a> >> <a href="SFannouncement.html">Announcements</a> >> <a href="">HackerForum back online</a></span>
+        </div>
+
+        <!--Topic Section-->
+        <div class="topic-container">
+            <!--Original thread-->
+            <div class="head">
+                <div class="authors"></div>
+                <div class="content"></div>
+            </div>
+
+            <div class="comments-container">
+                <div class="body">
+                    <div class="authors">
+                        <div class="username"><div class="fakelink">mattegatherers</div></div>
+                        <div>Author | Forum Owner</div>
+                        <img src="https://i.imgur.com/WxNkK7J.png" alt="">
+                        <div>Posts: <u>456</u></div>
+                        <div>Points: <u>4586</u></div>
+                    </div>
+                    <div class="content">
+                        Thank you all for the patience. HackerForum is now back and better 
+                        than ever, please look around our new site. 
+                        <br><Br>
+                        There is no more planned 
+                        downtime coming soon.
+
+                        <br><br>
+                        EDIT
+                        <br>
+                        See <a href="Pownerupdate.html">my post</a> for update to owner situation.
+                        <br>
+                        <br>
+                        <hr>
+                        Wilkommen Bienvenue Welcome!
+                        <div class="comment">
+                            <button onclick="showReply()">Comment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--Comment Area-->
+        <div class="comment-area hide" id="comment-area">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        <div class="head"></div>
+
+        <!--Comments Section-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><div class="fakelink">lambda_w</div></div>
+                    <div>byte</div>
+                    <img src="https://i.imgur.com/WxNkK7J.png" alt="">
+                    <div>Posts: <u>23</u></div>
+                    <div>Points: <u>14</u></div>
+                </div>
+                <div class="content">
+                    Good to be back here!
+                    <br>
+                    <br>
+                    
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        <div class="head"></div>
+
+        <!--Comments Section-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><div class="fakelink">jamsones</div></div>
+                    <div>byte</div>
+                    <img src="https://i.imgur.com/WxNkK7J.png" alt="">
+                    <div>Posts: <u>99</u></div>
+                    <div>Points: <u>45</u></div>
+                </div>
+                <div class="content">
+                    where's castellan? 
+                    <br>
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        <div class="head"></div>
+
+        <!--Comments Section-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><div class="fakelink">grainchord</div></div>
+                    <div>byte</div>
+                    <img src="https://i.imgur.com/WxNkK7J.png" alt="">
+                    <div>Posts: <u>2</u></div>
+                    <div>Points: <u>0</u></div>
+                </div>
+                <div class="content">
+                    hi guys happy to be here
+                    <br>
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        <div class="head"></div>
+
+
+        <!--Comments Section-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><div class="fakelink">gospare</div></div>
+                    <div>mega</div>
+                    <img src="https://i.imgur.com/WxNkK7J.png" alt="">
+                    <div>Posts: <u>300</u></div>
+                    <div>Points: <u>1234</u></div>
+                </div>
+                <div class="content">
+                    @jamsone has a point. Why is @mattegatherers the owner now? Something happen?
+                    <br>
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+        
+        <div class="pagination">
+            pages: <a href="">1</a><a href="">2</a><a href="">3</a>
+        </div>
+        
+
+    </div>
+    <footer>
+        <span>&copy;</span>
+    </footer>
+    <script src="_js/main.js"></script>
+</body>
+</html>
