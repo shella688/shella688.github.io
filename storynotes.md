@@ -22,7 +22,27 @@ TOPFRESH ->
     carder
     known, or at least believed, to be legit
 
-l3ftw4y5 ->
+cehriz ->
     tries to open genuine discussion about researchers and law enforcement on site
     "well, probably, not our fault if you're stupid"
     interrupted by @zombieshoe
+
+ravenousIsopod123 ->
+    who knows!
+    no reputation, no previous posts, but offering SMTP service
+
+
+
+PAGES TO MAKE
+[x] SubForum leak discussion
+    -> [ ]legit? by cehriz
+
+[] SFservices
+    -> [] Psmtpservice
+
+[] SFsellers
+    -> [] Puaeaccess
+        [] accusatory replies
+
+[] SFfinance
+    -> [] Pfreshbank

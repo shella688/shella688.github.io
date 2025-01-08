@@ -6,8 +6,8 @@
 }
 
 html{
-    font-size: 14px;
-    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
     background-color:rgb(0,0,0);
     color:#FEFEFE;
 }
@@ -33,7 +33,7 @@ a{
 }
 
 h1{
-    font-size:16px;
+    /* font-size:16px; */
     font-weight: bolder;
 }
 
@@ -129,11 +129,11 @@ h1{
     }
 
     html{
-        font-size: 14px;
+        font-size: 18px;
     }
 
     h1{
-        font-size: 16px;
+        font-size: 20px;
     }
 
   }
