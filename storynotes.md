@@ -37,12 +37,14 @@ PAGES TO MAKE
 [x] SubForum leak discussion
     -> [x]legit? by cehriz
 
-[] SFservices
-    -> [] Psmtpservice
+[x] SFservices
+    -> [x] Psmtpservice
 
-[] SFsellers
-    -> [] Puaeaccess
-        [] accusatory replies
+[x] SFsellers
+    -> [x] Puaeaccess
+        [x] accusatory replies
+    -> [x] Pusaccess
+        [x] successful sale
 
 [] SFfinance
     -> [] Pfreshbank
