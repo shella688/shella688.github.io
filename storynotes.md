@@ -46,5 +46,5 @@ PAGES TO MAKE
     -> [x] Pusaccess
         [x] successful sale
 
-[] SFfinance
-    -> [] Pfreshbank
+[x] SFfinance
+    -> [x] Pfreshbank
