@@ -48,3 +48,6 @@ PAGES TO MAKE
 
 [x] SFfinance
     -> [x] Pfreshbank
+
+OTHER TODO
+[] Make some names less stupid, specifically tagliatelle and farfalle
